@@ -1,0 +1,29 @@
+{
+    "name": "aranw/etags-middleware",
+    "type": "library",
+    "description": "ETags HttpKernelInterface Middleware",
+    "keywords": [
+        "ETags",
+        "StackPHP",
+        "HttpKernelInterface",
+        "middleware"
+    ],
+    "homepage": "http://aranw.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aran Wilkinson",
+            "email": "aran@aranw.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aranw\\ETagsMiddleware\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
