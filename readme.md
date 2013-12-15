@@ -46,6 +46,7 @@ This is still in its earliest stages of development, and below is a list of issu
 
 - [ ] Add tests
 - [ ] Explore usage of Last-Modified header and how it can be added to work in this package and how it affects the ETag header
+- [ ] Add more service providers for other frameworks
 
 ## Inspiration
 
