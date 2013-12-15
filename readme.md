@@ -10,7 +10,7 @@ Via Composer
 ``` json
 {
     "require": {
-        "aranw/etags-middleware": "0.1.*"
+        "aranw/etags-middleware": "dev-master"
     }
 }
 ```
