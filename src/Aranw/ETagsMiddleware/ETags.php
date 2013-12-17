@@ -39,7 +39,7 @@ class ETags implements HttpKernelInterface {
         $response = $this->app->handle($request, $type, $catch);
 
         if ( ! $response->headers->has('etag')) {
-            $responseETag = md5($response->getOriginalContent());
+            $responseETag = md5($response->getContent());
             $response->setEtag($responseETag);
         }
 

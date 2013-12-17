@@ -1,4 +1,4 @@
-<?php namespace Aranw\ETagsMiddleware;
+<?php namespace Aranw\ETagsMiddleware\Providers\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 
