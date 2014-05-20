@@ -1,5 +1,6 @@
 <?php namespace Aranw\ETagsMiddleware\Providers\Laravel;
 
+use Aranw\ETagsMiddleware\ETags;
 use Illuminate\Support\ServiceProvider;
 
 class ETagsMiddlewareServiceProvider extends ServiceProvider {
