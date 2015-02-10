@@ -22,7 +22,7 @@ class ETags implements HttpKernelInterface {
     {
         $this->app = $app;
     }
-    
+
     /**
      * Handle the given request and get the response.
      *
@@ -44,7 +44,6 @@ class ETags implements HttpKernelInterface {
         }
 
         if ($response->isNotModified($request)) {
-            $response->setNotModified();
             return $response; // Return our empty 304 not modified response
             // Return 304 if ETag matches given response
         }
